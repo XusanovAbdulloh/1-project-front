@@ -1,0 +1,45 @@
+.container{
+   width: auto;
+   height: auto;
+}
+.cards{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-btns{
+   width: auto;
+   display: flex;   
+}
+.show-btn-room{
+    width: 200px;
+}
+.edit-btn-room{
+    width: 200px;
+}
+.remove-room-btn{
+    width: 200px;
+}
+
+.show-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Styles for the room name */
+  .room-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  /* Styles for the room details */
+  .room-details {
+    font-size: 16px;
+    color: #666;
+  }
